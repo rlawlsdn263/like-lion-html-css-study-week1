@@ -1,0 +1,71 @@
+*, *::after, *::before {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+}
+
+a {
+  color: #212121;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+
+
+/* 상단 헤더 */
+.header-top-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #F5F5F5;
+  padding: 5px 30px;
+}
+
+.brand-menu {
+  text-align: left;
+  display: flex;
+}
+
+.brand-menu-items {
+  margin-right: 10px;
+}
+
+.member-menu {
+  text-align: right;
+  display: flex;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.divider {
+  margin: 0 5px;
+}
+
+/* 하단헤더 */
+.header-bottom-wrapper  {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 30px;
+}
+
+.navbar {
+  display: flex;
+  font-weight: bold;
+}
+
+.navbar-items {
+  margin: 0 10px;
+}
+
+.action-btn {
+  display: flex;
+}
+
+.icons {
+  margin: 0 10px;
+}
